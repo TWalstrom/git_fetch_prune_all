@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Define the parent directory
-parent_dir = "/PATH/TO/YOUR/REPOS/"
+parent_dir = r"C:\PATH\TO\YOUR\REPOS\"
 
 # Loop over all items in the parent directory
 for dir in os.listdir(parent_dir):
