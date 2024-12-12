@@ -1,8 +1,11 @@
 import os
 import subprocess
+import colorama
+
+colorama.init(autoreset=True)
 
 # Define the parent directory
-parent_dir = "/PATH/TO/YOUR/REPOS/"
+parent_dir = r"C:\Users\trawals\source\repos\RWSC Projects"
 
 # Loop over all items in the parent directory
 for dir in os.listdir(parent_dir):
