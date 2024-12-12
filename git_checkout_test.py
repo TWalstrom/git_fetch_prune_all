@@ -1,11 +1,13 @@
-import os
 import subprocess
 import colorama
+import sys
+import os
 
 colorama.init(autoreset=True)
 
-# Define the parent directory
-parent_dir = r"C:\Users\trawals\source\repos\RWSC Projects"
+# Get parent directory from command line argument, or use current directory as default
+parent_dir = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
+# usage: python script.py "C:\PATH\WHERE\REPOS\ARE\SAVED"
 
 # Loop over all items in the parent directory
 for dir in os.listdir(parent_dir):
