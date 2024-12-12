@@ -5,7 +5,7 @@ import colorama
 colorama.init(autoreset=True)
 
 # Define the parent directory
-parent_dir = r"C:\Users\trawals\source\repos\RWSC Projects"
+parent_dir = r"C:\PATH\TO\YOUR\REPOS\"
 
 # Loop over all items in the parent directory
 for dir in os.listdir(parent_dir):

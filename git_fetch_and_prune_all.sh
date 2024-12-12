@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the parent directory
-parent_dir = "/PATH/TO/YOUR/REPOS/"
+parent_dir="/PATH/TO/YOUR/REPOS/"
 
 # Loop over all items in the parent directory
 for dir in "$parent_dir"/*; do
